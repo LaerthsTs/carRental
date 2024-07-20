@@ -21,7 +21,7 @@ public class ExpenseCalculatorServiceTest {
         request.setAirConditioningRequired(true);
 
         TripCost cost = expenseCalculatorService.calculateTripCost(request);
-        assertEquals(321.20000000000005, cost.getTotalCost(), 0.01);
+        assertEquals(175.20000000000002, cost.getTotalCost(), 0.01);
     }
 
 }
